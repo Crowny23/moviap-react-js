@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.title{
+  font-size: clamp(50px, 15vw, 150px);
+  font-weight: 900;
+  background-clip: text;
+  background-position: fixed;
+  -webkit-background-clip: text;
+  background-image: url(./assets/3d-glasses-with-popcorns-clapperboard-concrete-backdrop.jpeg);
+  color: transparent;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +39,17 @@
 .App-link {
   color: #61dafb;
 }
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #61dafb;
+  padding: 10px;
+}
+
 
 @keyframes App-logo-spin {
   from {
